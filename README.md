@@ -159,8 +159,4 @@ The pipeline currently lives in a notebook. The natural end state is a lightweig
 
 The main work is parameterising the refit cadence (probably daily for the bandit context, weekly for the full Bayesian model) and deciding how to handle the cold-start problem — what the model does on the first few days of a new regime before the posterior has updated significantly. FastAPI would be the natural serving layer; the PyMC model can be serialised to `arviz` InferenceData format and loaded without refitting on every request.
 
----
 
-## Course Context
-
-This project was submitted for ST451 Bayesian Machine Learning at the London School of Economics. The brief required demonstrated use of Bayesian inference — priors, posteriors, predictive distributions — and a meaningful comparison against non-Bayesian benchmarks. The Indian equity market application is genuine and the methodology is reasonably principled, but this is academic work. It is not investment advice and has not been tested in a live trading environment.
