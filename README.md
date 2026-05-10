@@ -1,4 +1,4 @@
-# Bayesian Game-Regime Downside Risk Model 
+# Bayesian Game-Regime Downside Risk Modelling
 
 A probabilistic forecasting pipeline for sector-level downside risk in Indian equity markets. The project layers three ideas on top of each other: hidden Markov market regimes, a game-theoretic model of institutional investor interactions, and a hierarchical Bayesian classifier that fuses both into calibrated downside-risk probabilities. A contextual bandit then converts those probabilities into actual allocation decisions.
 
